@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Arthi</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/ac42c3b1f7.js" crossorigin="anonymous"></script>
+
+
+    <style>
+        .navbar {
+            border-radius: 0px;
+            background-image: linear-gradient(to top,#592929,rgb(24, 22, 22));
+        }
+
+        .navbar {
+            position: relative;
+            min-height: 70px;
+            padding-top: 10px;
+            margin-bottom: 0px;
+            border: 1px solid transparent;
+        }
+
+        .navbar-brand {
+            float: left;
+            height: 50px;
+            padding: 15px 15px;
+            font-size: 38px;
+            line-height: 20px;
+        }
+
+        .navbar-inverse .navbar-brand {
+            color: #ffffff;
+            font-family: "Roboto";
+        }
+
+        .btn-danger {
+            color: #fff;
+            background-color: #b56464;
+            border-color: #b56464;
+        }
+        .upload-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">ARTHI</a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+
+                <li><a href="index.html">
+                        <button class="btn btn-danger navbar-btn">Logout</button>
+                    </a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid" style="background-image: url('images/bg.jpeg'); height: 600px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;">
+
+
+
+        <div class="row" style="margin-top: 3px;">
+            <div class="col-md-2" style="background-image: linear-gradient(to left,#592929,rgb(24, 22, 22));height: 593px;">
+
+                <h3><a href="personalinfo.html" style="margin: 20px;color: white;">Personal Info</a></h3>
+                <h3><a href="favourites.html" style="margin: 20px;color: white;">Favorites</a></h3>
+                <h3><a href="upload.html" style="margin: 20px;color: white;">Upload</a></h3>
+
+            </div>
+            <div class="col-md-10">
+
+                <div class="jumbotron" style="background-color: transparent;width: 100%;">
+                    
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="jumbotron" style="background-color:transparent;">
+                                    <h3 style="text-align: left;color: rgb(255, 255, 255)">Hi (admin or user name here)</h3>
+                                    <hr />
+
+
+                                    <form>
+                                        <div class="upload-container">
+                                            <input type="file" id="photo-upload" accept="image/*">
+                                            <button onclick="uploadPhoto()" class="btn btn-danger navbar-btn;" style="text-align: left;">Upload</button>
+                                        </div>
+                                        
+                            
+                                        
+                                    </form>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+
+    </div>
+
+    <div class="container-fluid" style="background-image: linear-gradient(to bottom,#592929,rgb(24, 22, 22));">
+        <div class="row" style="padding-top: 30px;padding-bottom: 30px;">
+            
+            <div class="col-md-1">
+
+                <a href="about.html" style="color: white;">
+                    <h4>About</h4>
+                </a>
+
+            </div>
+            <div class="col-md-1">
+                <a href="policy.html"  style="color: white;">
+                    <h4>Privacy Policy</h4>
+                </a>
+            </div>
+            <div class="col-md-1">
+                <a href="termsofuse.html"  style="color: white;">
+                    <h4>Terms of use</h4>
+                </a>
+            </div>
+            <div class="col-md-1">
+                <a href="contact.html"  style="color: white;">
+                    <h4>Contact</h4>
+                </a>
+            </div>
+            <div class="col-md-4"></div>
+
+            <div class="col-md-4">
+
+                <a href="copyright.html"  style="color: white;">
+                    <h4>Copyright  :<i class="fa-regular fa-copyright"></i> 2024
+
+                        Follow us on : 
+
+                        <span style="padding-right: 10px;" > <i class="fa-brands fa-instagram"></i></span> 
+                        <span style="padding-right: 10px;" ><i class="fa-brands fa-facebook"></i></span> 
+                        <span style="padding-right: 10px;" ><i class="fa-brands fa-twitter"></i></span> 
+                    </h4>
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
